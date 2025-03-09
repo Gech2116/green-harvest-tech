@@ -1,27 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenHarvest Tech | Biodegradable Packaging</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GreenHarvest Tech</h1>
+      <p>Pioneering Sustainable Biodegradable Packaging for a Plastic-Free Future</p>
+    </div>
+  </header>
 
-**GreenHarvest Tech – Biodegradable Packaging Solutions**
-🌱 GreenHarvest Tech – Pioneering Sustainable Biodegradable Packaging for a Plastic-Free Future.
-Transforming the packaging industry with eco-friendly, biodegradable materials.
+  <section class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>GreenHarvest Tech is a company based in Addis Ababa, Ethiopia, committed to providing biodegradable packaging solutions that are eco-friendly and sustainable.</p>
+    </div>
+  </section>
 
-📌 Our Mission: To eliminate plastic waste through sustainable packaging solution
+  <section class="solution">
+    <div class="container">
+      <h2>Our Solution</h2>
+      <ul>
+        <li>100% Biodegradable</li>
+        <li>Made from Sustainable Materials</li>
+        <li>Affordable & Accessible</li>
+        <li>Reduces Plastic Waste</li>
+      </ul>
+    </div>
+  </section>
 
-Who We Are:
-GreenHarvest Tech is an innovative company based in Addis Ababa, Ethiopia. We specialize in providing biodegradable packaging solutions that are sustainable, practical, and environmentally friendly. Founded by Lidiya Wubshet, we are committed to creating alternatives to plastic packaging to protect the planet.
+  <section class="impact">
+    <div class="container">
+      <h2>Impact</h2>
+      <p>Our products help reduce plastic pollution and promote sustainability through alternative packaging solutions.</p>
+    </div>
+  </section>
 
-📍 Our Vision: A future without plastic waste, powered by sustainable materials.
-🎯 Our Goal: To lead the biodegradable packaging market in Ethiopia and beyond.
-Our Solution – Biodegradable Packaging
-We create packaging that:
-✅ 100% Biodegradable – Safe for the environment and decomposes naturally.
-✅ Made from Sustainable Materials – Plant-based and recycled materials, reducing the need for plastic.
-✅ Affordable & Accessible – Cost-effective solutions for businesses and consumers.
-✅ Reduces Plastic Waste – Supports a circular economy by offering a waste-free alternative to plastic packaging.
+  <footer>
+    <div class="container">
+      <p>Contact Us: <a href="mailto:gechhune21@gmail.com">gechhune21@gmail.com</a> | Phone: 0910475883</p>
+      <p>Follow us on <a href="https://www.linkedin.com/in/getaneh-hunegnaw-3a0338203">LinkedIn</a></p>
+    </div>
+  </footer>
+</body>
+</html>
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
 
-Contact Us
-📍 Addis Ababa, Ethiopia
-📧 Email: gechhune21@gmail.com
-📞 Phone: 0910475883
-🔗 Socials: [LinkedInImpact](https://www.linkedin.com/in/getaneh-hunegnaw-3a0338203)
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
 
-🌍 Sustainability: Our products align with global sustainability goals by reducing plastic pollution.
-📈 Market Potential: As Ethiopia’s economy grows, businesses are increasingly seeking eco-friendly packaging options. We are positioned to lead this market transformation.
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin-top: 10px;
+}
+
+/* Sections */
+section {
+  padding: 40px 0;
+}
+
+section h2 {
+  color: #333;
+}
+
+/* About Section */
+.about p {
+  font-size: 1.2em;
+}
+
+/* Solution Section */
+.solution ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.solution li {
+  margin: 10px 0;
+}
+
+/* Impact Section */
+.impact p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
